@@ -25,11 +25,12 @@ export const siteConfig: SiteConfig = {
   tagline: "Guides, Characters, Abilities & Combat Mechanics",
   description: "Explore the Naruto Storm Evolution Wiki for character guides, combat tips, abilities, updates and gameplay information for ninja battle fans.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://narutostormevolution.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://narutostormevolution.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@narutostormevolution.top",
   gameUrl: "https://unsevolution.com/",
   heroVideoId: "m7OutTJba5s", // Naruto Storm Evolution 1.11 official trailer reveal (showcase)
   social: {
     discord: "https://discord.gg/ultimateninja",
+    youtube: "https://www.youtube.com/@unsevolution",
     twitter: "https://twitter.com/UNSEvolution",
   },
   locales: ["en", "es", "pt", "de", "fr"],
