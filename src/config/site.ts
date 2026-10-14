@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Naruto Storm Evolution Wiki",
+  shortName: "Naruto Storm Evolution",
+  logoText: "N",
+  tagline: "Guides, Characters, Abilities & Combat Mechanics",
+  description: "Explore the Naruto Storm Evolution Wiki for character guides, combat tips, abilities, updates and gameplay information for ninja battle fans.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://narutostormevolution.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://narutostormevolution.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://unsevolution.com/",
+  heroVideoId: "m7OutTJba5s", // Naruto Storm Evolution 1.11 official trailer reveal (showcase)
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.gg/ultimateninja",
+    twitter: "https://twitter.com/UNSEvolution",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
