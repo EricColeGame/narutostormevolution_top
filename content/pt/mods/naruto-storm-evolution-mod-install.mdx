@@ -1,0 +1,110 @@
+export const metadata = {
+  title: "Instalação do mod Naruto Storm Evolution: Guia de instalação segura para Ultimate Ninja Storm 4",
+  description: "Aprenda a fazer uma instalação limpa do mod Naruto Storm Evolution no PC, com etapas de preparação, comparações de métodos, solução de problemas e dicas de desinstalação segura.",
+  category: "mods",
+  date: "2026-10-14",
+}
+
+## O que o Naruto Storm Evolution traz para Ultimate Ninja Storm 4
+
+Naruto Storm Evolution é uma expansão feita por fãs para a versão de PC de Naruto Shippuden: Ultimate Ninja Storm 4 e sua edição Road to Boruto, e uma instalação limpa do mod Naruto Storm Evolution é a diferença entre um novo elenco tranquilo e uma pasta de jogo cheia de conflitos. Se você está adicionando personagens, reformulando movesets ou reequilibrando o elenco, o processo recompensa paciência em vez de pressa. Este guia mostra como fazer uma instalação segura do mod Naruto Storm Evolution — fazendo backup de arquivos, escolhendo entre uma troca manual e um mod loader, e corrigindo os crashes que assustam a maioria dos jogadores.
+
+Este não é um pacote de texturas cosmético. Relatos da comunidade descrevem o Evolution como uma grande reformulação: novos personagens jogáveis, conjuntos de jutsu reformulados, despertares ajustados e passes de balanceamento que mantêm os membros mais antigos do elenco competitivos. Como ele edita os próprios arquivos de recursos do jogo em vez de ficar ao lado deles, até um pequeno erro na etapa de cópia pode produzir modelos invisíveis ou uma tela de título que nunca carrega.
+
+Novas builds geralmente são anunciadas pelos próprios canais da comunidade do projeto, e trailers costumam circular em plataformas sociais como o TikTok — é assim que muitos jogadores ficam sabendo pela primeira vez que um lançamento existe. Essa visibilidade é boa para o mod, mas também significa que reenvios e espelhos desatualizados se espalham rapidamente. Baixar da fonte errada é uma das razões mais comuns pelas quais uma instalação do mod Naruto Storm Evolution falha antes mesmo de começar.
+
+| Área de recurso | Storm 4 original | Build típica do Evolution |
+|---|---|---|
+| Elenco jogável | Jogo base mais DLC oficial | Elenco base mais adições feitas pela comunidade |
+| Conjuntos de movimentos | Conjuntos de jutsu criados pelos desenvolvedores | Conjuntos de jutsu reformulados e expandidos |
+| Despertares e ultimates | Definidos por patches oficiais | Despertares e finalizações ajustados pela comunidade |
+| Balanceamento | Ajustado em torno do ciclo oficial de patches | Ajustes de balanceamento da comunidade em todo o elenco |
+| Cosméticos e interface | Recursos originais | Trajes, retratos e ajustes de menu adicionados |
+| Pegada de instalação | Gerenciada inteiramente pela Steam | Arquivos de mod extras sobrepostos à instalação |
+
+Antes de baixar qualquer coisa, confirme para qual jogo da série uma determinada build foi feita. Mods da comunidade ocasionalmente migram para um título mais recente da série, e misturar arquivos entre jogos diferentes é crash garantido.
+
+## Antes de instalar: requisitos, backups e segurança
+
+Naruto Storm Evolution é um projeto exclusivo para PC. Cópias de console não expõem a estrutura de pastas de que o mod precisa, então não há maneira legítima de concluir uma instalação do mod Naruto Storm Evolution no PlayStation ou Xbox. Você precisa do jogo instalado pela Steam, totalmente atualizado e iniciado pelo menos uma vez para que o jogo crie suas próprias pastas de configuração e de save.
+
+A preparação é curta, mas indispensável. Dois backups — seus dados de save e os arquivos de dados originais do jogo — transformam uma tarde catastrófica em uma reversão de cinco minutos.
+
+| Verificação | Por que importa | Como fazer |
+|---|---|---|
+| Versão de PC do jogo | Os arquivos do mod são gravados no diretório de instalação; builds de console são fechadas | Confirme se o título aparece na sua biblioteca da Steam |
+| Jogo base totalmente atualizado | As builds geralmente são compiladas para um estado de patch específico | Deixe a Steam concluir as atualizações pendentes antes de mexer nos arquivos |
+| Backup dos dados de save | A corrupção do save é rara, mas irrecuperável sem uma cópia | Copie a pasta de save para outro drive ou pasta na nuvem |
+| Backup dos arquivos originais | Restaurar manualmente é melhor do que baixar o jogo inteiro de novo | Copie a pasta de dados do jogo antes de sobrescrever qualquer coisa |
+| Espaço livre em disco | Arquivos compactados, arquivos extraídos e backups coexistem temporariamente | Mantenha uma margem confortável acima do tamanho extraído |
+| Exclusões do antivírus | Ferramentas de mod às vezes disparam falsos positivos | Adicione a pasta do jogo à sua lista de permissões |
+| O readme incluído | Cada build traz etapas um pouco diferentes | Leia-o antes de copiar um único arquivo |
+
+Mais um aviso que vale repetir: arquivos modificados podem entrar em conflito com o jogo online. Se você planeja jogar partidas ranqueadas ou casuais online, mantenha uma cópia vanilla do jogo ou espere ter que restaurar os arquivos primeiro. A experiência dos jogadores mostra consistentemente que misturar mods e modos online sem um plano leva a desconexões e frustração.
+
+## Instalação do mod Naruto Storm Evolution: passo a passo
+
+O passo a passo abaixo segue a ordem que causa menos problemas. As etapas 1 a 6 são preparação; a etapa 7 é a instalação propriamente dita; as etapas 8 e 9 confirmam que funcionou.
+
+| Etapa | O que fazer | Por que importa |
+|---|---|---|
+| 1 | Verifique os arquivos do jogo pela Steam | Dá a você uma base confiável para restaurar se necessário |
+| 2 | Inicie o jogo uma vez e depois feche-o | Cria pastas de configuração e save que o mod pode esperar |
+| 3 | Baixe do canal oficial do projeto | Evita espelhos desatualizados e instaladores repackados |
+| 4 | Extraia o arquivo com 7-Zip ou WinRAR | Extração parcial é uma das principais causas de recursos ausentes |
+| 5 | Leia o readme por completo | Pastas de destino e requisitos de loader variam conforme a build |
+| 6 | Faça backup das pastas de destino | Permite desfazer a instalação do mod Naruto Storm Evolution em minutos |
+| 7 | Copie ou carregue os arquivos do mod | A etapa real de instalação — corresponda exatamente aos caminhos |
+| 8 | Inicie primeiro no modo um jogador | Confirma se a build carrega antes de você mexer nos modos online |
+| 9 | Teste uma partida com um personagem novo | Maneira mais rápida de identificar modelos ausentes ou movesets quebrados |
+
+Se a build vier com um mod loader, use-o. Um loader mantém seus arquivos originais intactos e simplesmente lê os recursos do mod em tempo de execução, o que significa que remover o mod é tão simples quanto desmarcar uma caixa. A substituição manual de arquivos é mais rápida de configurar, mas mais difícil de reverter, e acumula conflitos sempre que você adiciona outro mod.
+
+Depois que tudo carregar, jogue uma partida completa em vez de apenas verificar a tela de seleção de personagens. Alguns problemas — falas trocadas, efeitos de impacto ausentes, despertares quebrados — só aparecem quando a luta começa.
+
+## Escolhendo seu método de instalação: manual, loader ou repack
+
+Não existe um único método correto. A escolha certa depende de quanto você gosta de mexer e com que frequência espera atualizar.
+
+| Método | Como funciona | Prós | Contras | Melhor para |
+|---|---|---|---|---|
+| Substituição manual de arquivos | Copie os arquivos do mod sobre os originais | Simples, não precisa de ferramentas extras | Difícil de desfazer, quebra em atualizações do jogo, conflitos se acumulam | Testes pontuais |
+| Mod loader ou gerenciador | A ferramenta carrega os arquivos do mod em tempo de execução | Mantém os arquivos vanilla intactos, fácil de alternar | Precisa de ordem de carregamento correta e configuração extra | A maioria dos jogadores |
+| Repack tudo-em-um | Download de pasta de jogo já modificada | Menos etapas para iniciantes | Downloads grandes, preocupações de confiança, atualizações dolorosas | Jogadores que não querem mexer em nada |
+
+Um loader é o padrão mais seguro para uma instalação do mod Naruto Storm Evolution porque isola o mod do jogo base. Se algo quebrar, você desativa uma entrada em vez de procurar em pastas o único arquivo que esqueceu de restaurar.
+
+Repacks merecem uma ressalva. Eles são convenientes, mas você está confiando a um uploader anônimo um diretório de jogo completo, e perde a capacidade de verificar a integridade pela Steam. Se seguir por esse caminho, escaneie o arquivo e mantenha seu próprio backup de qualquer forma.
+
+## Solução de problemas comuns na instalação do mod Naruto Storm Evolution
+
+A maioria das falhas após uma instalação do mod Naruto Storm Evolution remete a uma entre algumas causas: extração incompleta, incompatibilidade de versão ou dois mods disputando o mesmo arquivo.
+
+| Sintoma | Causa provável | Correção |
+|---|---|---|
+| O jogo não inicia | Incompatibilidade de versão ou arquivos deixados para trás | Verifique a integridade na Steam e reinstale o mod |
+| Tela preta ou personagens invisíveis | Extração incompleta ou pasta errada | Extraia novamente e confirme o caminho de destino |
+| Novos personagens usam movesets padrão | Mod não está carregando ou conflito de ordem de carregamento | Reordene o loader; remova mods sobrepostos |
+| Partidas online desconectam | Arquivos modificados falham nas verificações online | Restaure os arquivos vanilla antes de jogar online |
+| Antivírus exclui um arquivo durante a instalação | Falso positivo em uma ferramenta de mod | Coloque a pasta do jogo na lista de permissões e copie novamente |
+| Crashes no meio da partida | Mods conflitantes ou build desatualizada | Teste com apenas o Evolution instalado |
+
+Percorra a lista em ordem. Verificar os arquivos do jogo primeiro resolve a maior parte dos problemas, e leva menos tempo do que ficar adivinhando.
+
+### Como desinstalar de forma limpa
+
+Se você usou um loader, desative ou exclua a entrada do mod e pronto. Se substituiu arquivos manualmente, restaure a pasta de backup que você criou na etapa 6, ou use a opção de verificação da Steam para baixar novamente os recursos originais. Os dados de save normalmente ficam fora do diretório do jogo e sobrevivem ao processo, mas restaure seu backup mesmo assim se algo parecer estranho.
+
+## FAQ
+
+**Preciso da versão de PC para concluir uma instalação do mod Naruto Storm Evolution?**
+Sim. O projeto depende de arquivos que apenas a versão de PC expõe. Versões de console não podem ser modificadas dessa forma, e não existe solução alternativa.
+
+**A instalação do mod Naruto Storm Evolution é segura para meus arquivos de save?**
+Em geral, sim, porque os saves são armazenados separadamente dos recursos do jogo. Dito isso, sempre faça backup da sua pasta de save antes de instalar — um save corrompido não pode ser recuperado sem uma cópia.
+
+**Ainda posso jogar online depois de instalar o mod?**
+Espere problemas. Arquivos modificados podem falhar nas verificações online e causar desconexões. Mantenha uma cópia limpa do jogo, ou restaure seus arquivos vanilla sempre que quiser jogar online. Veja a página oficial da Steam para [Naruto Shippuden: Ultimate Ninja Storm 4](https://store.steampowered.com/app/349040/NARUTO_SHIPPUDEN_Ultimate_Ninja_STORM_4/) se precisar reinstalar ou verificar sua cópia base.
+
+**Como atualizo para uma build mais nova?**
+Remova os arquivos antigos primeiro e depois instale a nova build do zero. Sobrescrever uma versão mais antiga em cima de uma mais nova é uma fonte comum de crashes, e o readme geralmente indica a ordem correta.

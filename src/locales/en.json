@@ -9,11 +9,18 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "updates": "Updates",
+    "platforms": "Platforms",
+    "mods": "Mods",
+    "community": "Community"
   },
   "home": {
     "meta": {
-      "title": "Naruto Storm Evolution Wiki - Characters, Guides & Codes",
+      "title": "Naruto Storm Evolution Wiki - Characters, Guides & Combat",
       "description": "Explore Naruto Storm Evolution Wiki with character guides, combat tips, abilities, updates, and gameplay information for ninja battle fans."
     },
     "hero": {
@@ -23,12 +30,12 @@
       "stats": [
         "Characters Available",
         "Combat Mechanics",
-        "Active Codes: 0",
+        "Platforms Covered",
         "Daily Updates"
       ],
       "primaryCta": "Beginner Guide",
       "secondaryCta": "Character Tier List",
-      "tertiaryCta": "Active Codes",
+      "tertiaryCta": "Combat Mechanics",
       "videoLabel": "Official Trailer"
     },
     "updates": {
@@ -449,12 +456,37 @@
       "secondary": "Play on PC (Steam)"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Naruto Storm Evolution Guides",
+    "overviewDescription": "Start here: release date, download size, PC requirements, controls, and the beginner walkthrough that gets new players winning matches fast."
+  },
+  "characters": {
+    "overviewTitle": "Naruto Storm Evolution Characters",
+    "overviewDescription": "Every fighter on the roster plus tier lists, best-character picks, and deep dives on standout ninja like Konan and Nanashi."
+  },
+  "mechanics": {
+    "overviewTitle": "Naruto Storm Evolution Combat Mechanics",
+    "overviewDescription": "How chakra, guarding, substitutions, combos, awakenings, instant awakening, ultimate jutsu, and ougi fusion actually work in Naruto Storm Evolution."
+  },
+  "updates": {
+    "overviewTitle": "Naruto Storm Evolution Updates",
+    "overviewDescription": "Patch notes and version breakdowns for the latest Naruto Storm Evolution builds, including 1.10, 1.11, and the new ultimates and skins they added."
+  },
+  "platforms": {
+    "overviewTitle": "Naruto Storm Evolution Platforms",
+    "overviewDescription": "Where Naruto Storm Evolution runs: PC, PS5, Xbox, Steam Deck, and Android, with setup notes and performance tips for each platform."
+  },
+  "mods": {
+    "overviewTitle": "Naruto Storm Evolution Mods",
+    "overviewDescription": "Install guides and breakdowns for the Naruto Storm Evolution mod, the test build, and the wider modding project behind the expansion."
+  },
+  "community": {
+    "overviewTitle": "Naruto Storm Evolution Community",
+    "overviewDescription": "Find matches, mods, and rivals through the official Naruto Storm Evolution Discord, Reddit, tournaments, and the latest trailers."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
     "updated": "Updated",
-    "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
     "inThisSection": "In this section",
     "tableOfContents": "Table of Contents",
@@ -480,10 +512,10 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Storm Evolution Builder (Skill Planner)",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Character Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "characterGuides": "Character Guides",
+    "mechanicsGuides": "Combat Mechanics",
+    "modGuides": "Mods & Install Guides"
   }
 }

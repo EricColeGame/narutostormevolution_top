@@ -1,0 +1,126 @@
+export const metadata = {
+  title: "Naruto Storm Evolution on Steam Deck: Compatibility, Settings, and Performance Tips",
+  description: "Wondering how Naruto Storm Evolution runs on Steam Deck? Get compatibility basics, Proton settings, control layouts, and fixes for smoother handheld battles.",
+  category: "platforms",
+  date: "2026-10-14",
+}
+
+## Why Naruto Storm Evolution Fits Handheld Play So Well
+
+Few arena fighters are as easy to pick up for ten minutes as the Naruto Storm games, which is exactly why so many players search for Naruto Storm Evolution Steam Deck answers. Matches are fast, the jutsu animations are readable even on a smaller panel, and the series' cel-shaded art style holds up beautifully at 800p. If you own a Deck and a Naruto game, you already have one of the best portable fighting setups available.
+
+The catch is that Naruto Storm Evolution Steam Deck performance depends on three things: how you own the game, which compatibility layer you run, and how aggressive your in-game settings are. Get those right and the experience feels native. Get them wrong and you will fight stutter instead of your opponent.
+
+This guide walks through compatibility, installation, settings, controls, and troubleshooting — all framed around what actually matters on a handheld.
+
+## Is Naruto Storm Evolution Steam Deck Compatible?
+
+Compatibility is not a single yes-or-no answer. Valve's official [Steam Deck compatibility program](https://www.steamdeck.com/) sorts games into tiers based on how well they work with the built-in controls, the 1280x800 screen, and the Proton compatibility layer that translates Windows games to SteamOS.
+
+If you own Naruto Storm Evolution through Steam, check the store page badge first — that is the fastest way to know what you are walking into. If you own it elsewhere and launch it as a non-Steam shortcut, you are on your own, but Proton handles most modern Unreal Engine titles well.
+
+| Compatibility badge | What it means | What to expect on Naruto Storm Evolution |
+|---|---|---|
+| Verified | Fully playable out of the box | Default controller layout works, text is readable, no manual tweaks needed |
+| Playable | Runs, but needs some input from you | You may need to pick a Proton version or adjust the on-screen text size |
+| Unsupported | Does not currently meet Valve's bar | Often still playable with Proton tweaks, but expect rough edges |
+| Unknown | Not yet reviewed | Test it yourself; results vary by Proton build |
+
+Community reports from handheld-focused forums suggest that arena fighters built on Unreal Engine 4 generally land somewhere between Playable and Verified once Proton is configured. Your mileage will vary by patch, so always test after an update rather than assuming yesterday's settings still hold.
+
+## How to Install Naruto Storm Evolution on Steam Deck
+
+Installation is straightforward for a Steam copy and slightly more involved for everything else. Do the heavy lifting in Desktop Mode, then switch back to Gaming Mode once the game is configured.
+
+| Step | What to do | Why it matters |
+|---|---|---|
+| 1 | Switch to Desktop Mode from the power menu | You need file access and a real browser for some steps |
+| 2 | Open Steam and find Naruto Storm Evolution in your library | Confirms the license is attached to your account |
+| 3 | Open Properties → Compatibility → force a Proton version | Forces SteamOS to use the Windows build instead of failing silently |
+| 4 | For non-Steam copies, use "Add a Non-Steam Game" and point it at the executable | Puts the game in your Gaming Mode library |
+| 5 | Launch once, let shaders compile, then quit | First launch is always the slowest; later sessions are smoother |
+| 6 | Set a controller layout and test in Training Mode | Confirms inputs register before you play online |
+
+A quick tip: install Naruto Storm Evolution to the internal SSD rather than a microSD card if you have the space. Load times for arena fighters are usually fine on a card, but cutscenes and stage transitions are noticeably snappier from internal storage.
+
+## Best Settings for Smooth Performance
+
+There is no universal magic preset, but there is a sensible starting point. The goal on a handheld is a stable frame rate, not maximum fidelity — a locked 40 or 60 FPS feels far better than a fluctuating 50.
+
+| Setting | Suggested starting point | Notes |
+|---|---|---|
+| Resolution | 1280x800 native | Matches the Deck's panel; avoids blurry scaling |
+| Frame rate cap | 40 FPS for battery, 60 FPS when docked | Consistency beats peak numbers |
+| TDP limit | Off first, then tune down | Uncapped TDP first tells you what the game actually needs |
+| Shadows | Medium or Low | One of the biggest performance wins in arena fighters |
+| Motion blur | Off | Also improves clarity during fast camera sweeps |
+| Anti-aliasing | Low or FSR | FSR is a good compromise on a small screen |
+| Texture quality | High if VRAM allows | Textures cost little on modern hardware |
+| V-Sync | On in-game, off in the Deck's quick menu | Avoid stacking two sync methods |
+
+Play one full match after each change. Changing five settings at once makes it impossible to tell what helped. If Naruto Storm Evolution Steam Deck performance still feels uneven, drop the frame cap to 40 and raise the graphics back up — a stable 40 looks better than a stuttering 60.
+
+## Controller Setup for Naruto Storm Evolution
+
+The Deck's built-in controls cover a Naruto Storm-style layout comfortably, but a few remaps make substitution jutsu and dash cancels much easier to hit. Set these through the Steam controller configurator, then save the layout so it survives updates.
+
+| Steam Deck input | Suggested action | Reason |
+|---|---|---|
+| Left stick | Character movement | Default and natural |
+| Right stick | Camera | Keep sensitivity moderate for arena sweeps |
+| A / Cross | Confirm / basic attack | Most-used button; keep it under your thumb |
+| X / Square | Guard | Guard needs to be fast and reachable |
+| Y / Triangle | Chakra charge | Hold-to-charge is comfortable here |
+| B / Circle | Jump / dash cancel | Dash cancels decide most close matches |
+| L1 / R1 | Support character call | Shoulder buttons keep thumbs on sticks |
+| Back buttons (L4/L5) | Substitution jutsu | Removes the awkward stick-click press |
+
+If you play docked with a separate controller, test the layout again — mappings you saved for the Deck's grips will not exist on a standard pad, and you will want a second saved profile.
+
+## Troubleshooting Common Issues
+
+Most problems on the Deck have a known fix, and almost all of them come down to Proton, shaders, or power management.
+
+| Symptom | Likely cause | Fix |
+|---|---|---|
+| Game won't launch | Proton mismatch | Try a different Proton version in Properties → Compatibility |
+| Heavy stutter in the first match | Shader compilation | Play a few minutes and let it settle; subsequent sessions improve |
+| Text too small to read | Handheld resolution scaling | Lower resolution scaling or use the Deck's magnifier |
+| Audio crackle or dropouts | Power management throttling | Disable the TDP limit temporarily and retest |
+| Controller inputs ignored | Steam Input conflict | Set the layout to "Gamepad with Joystick Trackpad" and re-test |
+| Sudden FPS drops after an update | Patch changed shaders or settings | Delete the shader cache and let it rebuild |
+
+Community reports consistently point to the same culprit: forcing a specific Proton version rather than leaving it on the default. If Naruto Storm Evolution Steam Deck sessions crash on launch, that single change fixes it more often than anything else.
+
+## Steam Deck vs. Other Ways to Play
+
+It helps to know what you are trading away by going handheld. The Deck is not the most powerful option, but it is often the most convenient one.
+
+| Platform | Portability | Visual ceiling | Best for |
+|---|---|---|---|
+| Steam Deck (handheld) | Excellent | Medium — 800p, tuned settings | Short sessions, travel, couch play |
+| Steam Deck (docked) | Low | Medium-high at 1080p | Big-screen play with a controller |
+| Gaming desktop | None | Highest — max settings, high refresh | Competitive play and mods |
+| Gaming laptop | Moderate | High | Players who want both but travel less |
+
+For most Naruto Storm Evolution players, the Deck's tradeoff is worth it. You lose some visual polish and gain the ability to grind a few matches on a lunch break or in bed.
+
+## FAQ
+
+**Does Naruto Storm Evolution run well on Steam Deck?**
+In most cases, yes — especially if you force a Proton compatibility layer and cap the frame rate to 40 or 60 FPS. Check the store page compatibility badge for the current status, since it can change with patches.
+
+**Do I need to change any settings before playing Naruto Storm Evolution on Steam Deck?**
+Not strictly, but lowering shadows, disabling motion blur, and setting a frame cap will give you a much more consistent experience. Start at native 1280x800 resolution.
+
+**Can I play Naruto Storm Evolution Steam Deck sessions online?**
+Online play depends on the game's servers and your Wi-Fi, not the Deck itself. A 5 GHz connection is strongly recommended, and handheld mode generally holds a stable connection fine.
+
+**Why does my first match stutter every time?**
+That is shader compilation. The Deck builds a shader cache the first time it renders new effects. Give it a few minutes of play, and later sessions should run noticeably smoother.
+
+## Final Thoughts
+
+Naruto Storm Evolution on Steam Deck is one of those pairings that just makes sense — quick matches, a readable art style, and a control scheme that maps cleanly to handheld inputs. Handle the compatibility layer, dial in a stable frame rate, and save a controller layout you like, and you will stop thinking about settings entirely and start thinking about your next substitution timing.
+
+Treat every major patch as a fresh test. Re-check your Proton version, clear the shader cache if something feels off, and keep your settings notes somewhere handy. A few minutes of tuning buys hours of smooth handheld ninja battles.

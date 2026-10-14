@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Naruto Storm Evolution Requirements: PC Specs, Storage, and Performance Guide",
+  description: "A practical breakdown of Naruto Storm Evolution requirements, covering PC specs, storage needs, the settings that matter, and fixes for low FPS.",
+  category: "guide",
+  date: "2026-10-14",
+}
+
+## Why Naruto Storm Evolution Requirements Matter More Than You Think
+
+If your frame rate collapses the moment two Ultimate Jutsus collide, the problem is almost never the game — it is the hardware underneath it. Naruto Storm Evolution is a community-driven expansion of the Storm series' PC experience, and its performance profile sits a notch above the vanilla release because of the extra characters, effect layers, and stage work bundled into it. Knowing the Naruto Storm Evolution requirements ahead of time saves you hours of stuttering, crashes, and forum digging.
+
+This guide breaks those requirements into plain language: what each hardware tier actually gets you, which graphics settings cost the most performance, and how to squeeze smooth gameplay out of an older machine. Everything here is written for players, not benchmark chasers.
+
+## Naruto Storm Evolution Requirements at a Glance
+
+There is no single official spec sheet published for this project, so the tiers below reflect **community reports** and the general performance envelope of the Storm engine on PC. Treat them as realistic targets rather than hard gates.
+
+| Tier | CPU | RAM | GPU | Storage | Realistic Target |
+|---|---|---|---|---|---|
+| Entry | Modern dual-core or older quad-core (2.5 GHz+) | 8 GB | Integrated graphics or entry discrete GPU | ~40 GB free HDD space | 720p, low–medium settings, 30 FPS |
+| Recommended | Quad-core or 6-core (3.0 GHz+) | 16 GB | Mid-range discrete GPU (GTX 1060 / RX 580 class) | ~50 GB free, SSD preferred | 1080p, high settings, 60 FPS |
+| Enthusiast | 6–8 core (3.5 GHz+) | 16–32 GB | Upper mid-range or better (RTX 2060 / RX 6600 class and up) | NVMe SSD | 1440p or 4K, max settings, 60+ FPS |
+
+A useful reality check: the base Storm titles have always been modest by modern standards. Their Steam listings have historically called for a dual- or quad-core processor, a few gigabytes of RAM, and a mid-range GPU from the early-to-mid 2010s. You can compare that baseline directly on the [Naruto Shippuden: Ultimate Ninja Storm 4 Steam page](https://store.steampowered.com/app/349040/), which remains the reference point most players use when judging whether their rig is ready.
+
+If your PC comfortably exceeds that baseline, you are almost certainly fine. If you are right at it, the tuning advice later in this article is where you should focus.
+
+## Minimum vs. Recommended: What the Numbers Actually Mean
+
+"Minimum" and "recommended" get thrown around loosely. Here is what each tier genuinely changes for an arena fighter like this one.
+
+| Aspect | Minimum-Class Hardware | Recommended-Class Hardware | What Actually Changes |
+|---|---|---|---|
+| Frame rate | 30 FPS with dips during ultimates | Locked 60 FPS | Combat timing and combo timing feel consistent |
+| Resolution | 720p upscaled | Native 1080p | Character outlines and UI text stay crisp |
+| Load times | Noticeably longer between matches | A few seconds | Faster rematch loops in versus play |
+| Texture and effect quality | Reduced particle density | Full effect layers | Ultimates and awakenings look complete |
+| Stability | Occasional stutter or hitch | Smooth throughout | Fewer dropped inputs during clashes |
+
+The single biggest factor is not raw GPU power — it is consistency. Arena fighters depend on frame pacing, so a machine that holds a steady 60 FPS at medium settings will always feel better than one that spikes between 90 and 40 on ultra.
+
+**Player experience** consistently points to the same conclusion: turn settings down before you turn your patience up.
+
+## The Settings That Hit Your Frame Rate Hardest
+
+Not all graphics options are equal. This table ranks the usual suspects by cost versus payoff, based on community testing and general engine behavior.
+
+| Setting | Performance Cost | Visual Gain | Recommendation |
+|---|---|---|---|
+| Resolution / render scale | Very high | Very high | Drop one step before touching anything else |
+| Shadows | High | Moderate | Medium is the sweet spot |
+| Anti-aliasing | Moderate to high | Moderate | Use a lighter method on older GPUs |
+| Particle and effect quality | High during ultimates | High | Keep high if you can; it defines the spectacle |
+| Texture quality | Low to moderate | High | Keep high — cheap wins where VRAM allows |
+| Motion blur | Low | Subjective | Turn off; it hides frame drops but adds input lag feel |
+| V-Sync | Low | Reduces tearing | Enable only if tearing bothers you |
+
+A practical order of operations: resolution scale first, shadows second, anti-aliasing third. Those three changes alone often recover 20–30 FPS on mid-range hardware without making the game look dramatically worse.
+
+Storage deserves its own note. Modern Storm installs are large, and an expansion layered on top pushes the footprint higher. Keep at least 15–20% of your drive free — a nearly full SSD slows down and can cause hitches mid-match.
+
+## How to Check Your PC Before You Download
+
+Run this checklist before you commit to a long download. It takes about five minutes and prevents most disappointment.
+
+| Step | Where to Look | What You Want to See |
+|---|---|---|
+| Confirm your GPU | Windows search: `dxdiag`, then the Display tab | A discrete GPU with at least 2 GB VRAM |
+| Confirm your RAM | Task Manager → Performance → Memory | 8 GB minimum, 16 GB comfortable |
+| Confirm free space | File Explorer → This PC | 50 GB free on the target drive |
+| Confirm driver version | GPU vendor app (NVIDIA, AMD, Intel) | A driver from the last few months |
+| Confirm the base game | Your library / install folder | The required Storm title installed and updated |
+| Back up saves | Your documents or save folder | A copy stored somewhere safe |
+
+If you fail one of these, fix that item first. Installing an expansion on top of an already fragile setup rarely ends well.
+
+## Getting Smooth Performance on Weaker Hardware
+
+Community reports repeatedly surface the same handful of fixes for machines that technically meet the Naruto Storm Evolution requirements but still stutter:
+
+- **Close background apps.** Browsers, Discord overlays, and recording software all steal frames.
+- **Disable in-game overlays.** They hook into the render pipeline and cause micro-stutter.
+- **Update your GPU driver.** It is the cheapest performance upgrade available.
+- **Cap your frame rate.** A stable 60 beats an unstable 90 every time.
+- **Use fullscreen exclusive.** Windowed and borderless modes add overhead.
+- **Set the Windows power plan to High Performance.** Laptops in particular throttle aggressively on balanced mode.
+- **Verify your install.** A corrupted file can cause stutter that looks like a hardware problem.
+
+If you are on a laptop, plug it in. Battery mode quietly halves your GPU's power budget, and no settings change will compensate for that.
+
+## Common Problems and Quick Fixes
+
+| Symptom | Likely Cause | Fix |
+|---|---|---|
+| Crashes on launch | Outdated driver or missing runtime files | Update drivers, reinstall the required runtimes |
+| Stutter during ultimates | Effect quality too high for the GPU | Lower particle and shadow settings |
+| Long load times | Game installed on a slow HDD | Move the install to an SSD |
+| Black screen with audio | Display mode conflict | Switch to fullscreen, update the GPU driver |
+| Low FPS after a patch | Settings reset to default | Re-apply your custom profile |
+| Input drops during clashes | Frame pacing instability | Cap the frame rate and close overlays |
+
+Most of these are solved in under ten minutes. Work through them in order rather than changing five things at once — otherwise you will never know which fix actually worked.
+
+## FAQ
+
+**Can a laptop meet the Naruto Storm Evolution requirements?**
+Often, yes — provided it has a discrete GPU and 16 GB of RAM. Integrated-only laptops will run it at low settings and reduced resolution, but expect compromises during heavy ultimate sequences. Always play plugged in.
+
+**How much storage should I set aside?**
+Plan for roughly 50 GB of free space to be safe. The base install, the expansion content, and temporary patch files all consume room, and leaving your drive nearly full causes stutter.
+
+**Do I need the base game installed?**
+In most cases, yes. Expansions of this type typically layer on top of an existing Storm installation rather than shipping as a standalone product. Check the project's current release notes for the exact dependency.
+
+**Will lowering settings ruin the visuals?**
+Not as much as you would expect. Dropping resolution scale and shadows recovers a lot of performance while particle effects — the part that actually makes ultimates look impressive — stay largely intact.

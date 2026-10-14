@@ -1,0 +1,116 @@
+export const metadata = {
+  title: "Requisitos do Naruto Storm Evolution: Especificações de PC, Armazenamento e Guia de Desempenho",
+  description: "Uma análise prática dos requisitos do Naruto Storm Evolution, cobrindo especificações de PC, necessidade de armazenamento, as configurações que importam e correções para FPS baixo.",
+  category: "guide",
+  date: "2026-10-14",
+}
+
+## Por Que os Requisitos do Naruto Storm Evolution Importam Mais do Que Você Imagina
+
+Se a sua taxa de quadros despenca no momento em que dois Jutsus Supremos colidem, o problema quase nunca é o jogo — é o hardware por trás dele. Naruto Storm Evolution é uma expansão feita pela comunidade para a experiência de PC da série Storm, e seu perfil de desempenho fica um degrau acima do lançamento original por causa dos personagens extras, das camadas de efeitos e do trabalho de cenários incluídos nela. Conhecer os requisitos do Naruto Storm Evolution com antecedência economiza horas de travamentos, quedas e buscas em fóruns.
+
+Este guia traduz esses requisitos para uma linguagem simples: o que cada nível de hardware realmente entrega, quais configurações gráficas custam mais desempenho e como extrair uma jogabilidade fluida de uma máquina mais antiga. Tudo aqui foi escrito para jogadores, não para caçadores de benchmark.
+
+## Requisitos do Naruto Storm Evolution em Resumo
+
+Não existe uma ficha técnica oficial única publicada para este projeto, então os níveis abaixo refletem **relatos da comunidade** e o envelope geral de desempenho da engine Storm no PC. Trate-os como metas realistas, e não como exigências rígidas.
+
+| Nível | CPU | RAM | GPU | Armazenamento | Meta Realista |
+|---|---|---|---|---|---|
+| Entrada | Dual-core moderno ou quad-core mais antigo (2,5 GHz+) | 8 GB | Gráficos integrados ou GPU dedicada de entrada | ~40 GB livres em HDD | 720p, configurações baixas–médias, 30 FPS |
+| Recomendado | Quad-core ou 6 núcleos (3,0 GHz+) | 16 GB | GPU dedicada intermediária (classe GTX 1060 / RX 580) | ~50 GB livres, SSD preferencial | 1080p, configurações altas, 60 FPS |
+| Entusiasta | 6–8 núcleos (3,5 GHz+) | 16–32 GB | Intermediária alta ou superior (classe RTX 2060 / RX 6600 e acima) | SSD NVMe | 1440p ou 4K, configurações máximas, 60+ FPS |
+
+Uma verificação útil da realidade: os títulos base da série Storm sempre foram modestos para os padrões modernos. Suas páginas na Steam historicamente pediam um processador dual-core ou quad-core, alguns gigabytes de RAM e uma GPU intermediária do início ao meio da década de 2010. Você pode comparar essa base diretamente na [página da Steam de Naruto Shippuden: Ultimate Ninja Storm 4](https://store.steampowered.com/app/349040/), que continua sendo o ponto de referência que a maioria dos jogadores usa para julgar se a sua máquina está pronta.
+
+Se o seu PC supera essa base com folga, você quase certamente está tranquilo. Se você está bem no limite dela, é nas dicas de ajuste mais adiante neste artigo que você deve focar.
+
+## Mínimo vs. Recomendado: O Que os Números Realmente Significam
+
+"Mínimo" e "recomendado" são usados de forma bastante solta. Aqui está o que cada nível realmente muda para um jogo de luta de arena como este.
+
+| Aspecto | Hardware de Classe Mínima | Hardware de Classe Recomendada | O Que Realmente Muda |
+|---|---|---|---|
+| Taxa de quadros | 30 FPS com quedas durante os supremos | 60 FPS travados | O timing de combate e de combos se mantém consistente |
+| Resolução | 720p com upscaling | 1080p nativo | Os contornos dos personagens e os textos da interface permanecem nítidos |
+| Tempos de carregamento | Visivelmente mais longos entre partidas | Alguns segundos | Revanches mais rápidas no modo versus |
+| Qualidade de texturas e efeitos | Densidade de partículas reduzida | Camadas de efeitos completas | Supremos e despertamentos parecem completos |
+| Estabilidade | Travadas ou engasgos ocasionais | Fluidez do início ao fim | Menos comandos perdidos durante os confrontos |
+
+O maior fator isolado não é a potência bruta da GPU — é a consistência. Jogos de luta de arena dependem do frame pacing, então uma máquina que mantém 60 FPS estáveis em configurações médias sempre parecerá melhor do que uma que oscila entre 90 e 40 no ultra.
+
+**A experiência dos jogadores** aponta consistentemente para a mesma conclusão: diminua as configurações antes de aumentar a sua paciência.
+
+## As Configurações Que Mais Pesam na Sua Taxa de Quadros
+
+Nem todas as opções gráficas são iguais. Esta tabela classifica os suspeitos de sempre por custo versus benefício, com base em testes da comunidade e no comportamento geral da engine.
+
+| Configuração | Custo de Desempenho | Ganho Visual | Recomendação |
+|---|---|---|---|
+| Resolução / escala de renderização | Muito alto | Muito alto | Reduza um nível antes de mexer em qualquer outra coisa |
+| Sombras | Alto | Moderado | Médio é o ponto ideal |
+| Anti-aliasing | Moderado a alto | Moderado | Use um método mais leve em GPUs mais antigas |
+| Qualidade de partículas e efeitos | Alto durante os supremos | Alto | Mantenha alta se puder; é o que define o espetáculo |
+| Qualidade de texturas | Baixo a moderado | Alto | Mantenha alta — ganho barato onde a VRAM permite |
+| Motion blur | Baixo | Subjetivo | Desligue; ele esconde quedas de quadros, mas adiciona sensação de input lag |
+| V-Sync | Baixo | Reduz o tearing | Ative apenas se o tearing incomodar você |
+
+Uma ordem prática de operações: escala de resolução primeiro, sombras em segundo, anti-aliasing em terceiro. Só essas três mudanças costumam recuperar 20–30 FPS em hardware intermediário sem deixar o jogo dramaticamente mais feio.
+
+O armazenamento merece uma observação própria. As instalações modernas de Storm são grandes, e uma expansão adicionada por cima aumenta ainda mais o espaço ocupado. Mantenha pelo menos 15–20% do seu disco livre — um SSD quase cheio fica mais lento e pode causar engasgos no meio da partida.
+
+## Como Verificar Seu PC Antes de Baixar
+
+Faça esta checklist antes de se comprometer com um download longo. Leva cerca de cinco minutos e evita a maior parte das decepções.
+
+| Passo | Onde Olhar | O Que Você Quer Ver |
+|---|---|---|
+| Confirme sua GPU | Pesquisa do Windows: `dxdiag`, depois a aba Vídeo | Uma GPU dedicada com pelo menos 2 GB de VRAM |
+| Confirme sua RAM | Gerenciador de Tarefas → Desempenho → Memória | 8 GB no mínimo, 16 GB confortável |
+| Confirme o espaço livre | Explorador de Arquivos → Este Computador | 50 GB livres na unidade de destino |
+| Confirme a versão do driver | App do fabricante da GPU (NVIDIA, AMD, Intel) | Um driver dos últimos meses |
+| Confirme o jogo base | Sua biblioteca / pasta de instalação | O título Storm necessário instalado e atualizado |
+| Faça backup dos saves | Seus documentos ou pasta de save | Uma cópia guardada em algum lugar seguro |
+
+Se você falhar em um desses itens, resolva-o primeiro. Instalar uma expansão sobre uma configuração já frágil raramente termina bem.
+
+## Conseguindo um Desempenho Fluido em Hardware Mais Fraco
+
+Relatos da comunidade trazem repetidamente o mesmo punhado de correções para máquinas que tecnicamente atendem aos requisitos do Naruto Storm Evolution, mas ainda assim engasgam:
+
+- **Feche aplicativos em segundo plano.** Navegadores, overlays do Discord e softwares de gravação roubam quadros.
+- **Desative overlays dentro do jogo.** Eles se conectam ao pipeline de renderização e causam microtravamentos.
+- **Atualize o driver da sua GPU.** É o upgrade de desempenho mais barato disponível.
+- **Limite sua taxa de quadros.** 60 estáveis vencem 90 instáveis todas as vezes.
+- **Use tela cheia exclusiva.** Modos em janela e sem bordas adicionam sobrecarga.
+- **Defina o plano de energia do Windows como Alto Desempenho.** Notebooks, em particular, fazem throttling agressivo no modo equilibrado.
+- **Verifique sua instalação.** Um arquivo corrompido pode causar engasgos que parecem problema de hardware.
+
+Se você está em um notebook, deixe-o na tomada. O modo bateria reduz silenciosamente pela metade o orçamento de energia da sua GPU, e nenhuma mudança de configuração vai compensar isso.
+
+## Problemas Comuns e Correções Rápidas
+
+| Sintoma | Causa Provável | Correção |
+|---|---|---|
+| Travamentos ao iniciar | Driver desatualizado ou arquivos de runtime ausentes | Atualize os drivers, reinstale os runtimes necessários |
+| Engasgos durante os supremos | Qualidade de efeitos alta demais para a GPU | Reduza as configurações de partículas e sombras |
+| Tempos de carregamento longos | Jogo instalado em um HDD lento | Mova a instalação para um SSD |
+| Tela preta com áudio | Conflito de modo de exibição | Mude para tela cheia, atualize o driver da GPU |
+| FPS baixo após um patch | Configurações redefinidas para o padrão | Reaplique seu perfil personalizado |
+| Comandos perdidos durante confrontos | Instabilidade no frame pacing | Limite a taxa de quadros e feche overlays |
+
+A maioria desses casos é resolvida em menos de dez minutos. Trabalhe por eles em ordem, em vez de mudar cinco coisas de uma vez — caso contrário, você nunca saberá qual correção realmente funcionou.
+
+## FAQ
+
+**Um notebook consegue atender aos requisitos do Naruto Storm Evolution?**
+Muitas vezes, sim — desde que tenha uma GPU dedicada e 16 GB de RAM. Notebooks apenas com gráficos integrados vão rodá-lo em configurações baixas e resolução reduzida, mas espere concessões durante sequências pesadas de supremos. Sempre jogue na tomada.
+
+**Quanto de armazenamento devo reservar?**
+Planeje cerca de 50 GB de espaço livre para ficar seguro. A instalação base, o conteúdo da expansão e os arquivos temporários de patch consomem espaço, e deixar o disco quase cheio causa engasgos.
+
+**Preciso ter o jogo base instalado?**
+Na maioria dos casos, sim. Expansões desse tipo normalmente se sobrepõem a uma instalação existente do Storm, em vez de serem lançadas como um produto independente. Confira as notas de lançamento atuais do projeto para saber a dependência exata.
+
+**Reduzir as configurações vai estragar os visuais?**
+Não tanto quanto você esperaria. Baixar a escala de resolução e as sombras recupera bastante desempenho, enquanto os efeitos de partículas — a parte que realmente faz os supremos parecerem impressionantes — permanecem em grande parte intactos.

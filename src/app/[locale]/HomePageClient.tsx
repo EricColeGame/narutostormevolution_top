@@ -39,10 +39,10 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
             <Link href={localizeHref("/guide/naruto-storm-evolution-beginner-guide", locale)}>{home.hero.primaryCta}<ArrowRight className="ml-2 h-4 w-4" /></Link>
           </Button>
           <Button asChild size="lg" variant="outline">
-            <Link href={localizeHref("/tier-list", locale)}>{home.hero.secondaryCta}</Link>
+            <Link href={localizeHref("/characters/naruto-storm-evolution-character-tier-list", locale)}>{home.hero.secondaryCta}</Link>
           </Button>
           <Button asChild size="lg" variant="outline">
-            <Link href={localizeHref("/codes", locale)}>{home.hero.tertiaryCta}</Link>
+            <Link href={localizeHref("/mechanics/naruto-storm-evolution-combat-mechanics", locale)}>{home.hero.tertiaryCta}</Link>
           </Button>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
             ))}
           </div>
           <Button asChild className="mt-5 w-full" variant="outline">
-            <Link href={localizeHref("/codes", locale)}>{home.updates.browse}</Link>
+            <Link href={localizeHref("/guide", locale)}>{home.updates.browse}</Link>
           </Button>
         </Card>
 
