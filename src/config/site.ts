@@ -33,6 +33,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@unsevolution",
     twitter: "https://twitter.com/UNSEvolution",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "ja", "es", "pt"],
   defaultLocale: "en",
 };

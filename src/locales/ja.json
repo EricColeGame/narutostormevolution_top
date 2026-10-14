@@ -1,1 +1,520 @@
-{}
+{
+  "site": {
+    "name": "Naruto Storm Evolution Wiki",
+    "shortName": "Naruto Storm Evolution",
+    "tagline": "ガイド・キャラクター・忍術・戦闘メカニクス",
+    "description": "Naruto Storm Evolution Wiki では、キャラクターガイド、戦闘のコツ、忍術、アップデート、ゲームプレイ情報を忍者バトルのファン向けにまとめています。",
+    "legalNotice": "非公式のファンウィキです。プレイヤーがプレイヤーのために作っています。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替え",
+    "guide": "ガイド",
+    "characters": "キャラクター",
+    "mechanics": "メカニクス",
+    "updates": "アップデート",
+    "platforms": "対応機種",
+    "mods": "MOD",
+    "community": "コミュニティ"
+  },
+  "home": {
+    "meta": {
+      "title": "Naruto Storm Evolution Wiki - キャラクター・ガイド・戦闘",
+      "description": "Naruto Storm Evolution Wiki でキャラクターガイド、戦闘のコツ、忍術、アップデート、ゲームプレイ情報を忍者バトルのファン向けに紹介します。"
+    },
+    "hero": {
+      "eyebrow": "アニメ忍者格闘ゲーム",
+      "title": "Naruto Storm Evolution Wiki",
+      "description": "Naruto Storm Evolution Wiki では、究極の忍者バトルを楽しむファンに向けて、ガイド、キャラクター、忍術、戦闘メカニクス、アップデート、ゲームプレイ情報を提供しています。",
+      "stats": [
+        "登場キャラクター",
+        "戦闘メカニクス",
+        "対応機種",
+        "毎日更新"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "キャラクターTierリスト",
+      "tertiaryCta": "戦闘メカニクス",
+      "videoLabel": "公式トレーラー"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "はじめに",
+      "title": "Naruto Storm Evolution への道のり",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "最初の Naruto Storm Evolution の試合を左右するチャクラ管理、変わり身のタイミング、ガードの習慣を学びましょう。"
+        },
+        {
+          "number": "2",
+          "title": "おすすめキャラクター",
+          "description": "全キャラクターを確認し、突進型・遠距離型・パワー型の特徴を比べて、自分に合うメインを選びましょう。"
+        },
+        {
+          "number": "3",
+          "title": "戦闘メカニクス",
+          "description": "チャクラダッシュ、ガードブレイク、カウンター、チームアシストを習得し、闇雲な撃ち合いではなく主導権を握りましょう。"
+        },
+        {
+          "number": "4",
+          "title": "コンボと覚醒",
+          "description": "安定したコンボルートを組み、変わり身のタイミングを合わせ、覚醒のチャンスを確実なラウンド勝利につなげましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま話題の記事",
+      "quickLinks": [
+        "全キャラクター",
+        "戦闘メカニクス",
+        "キャラクターTierリスト",
+        "最新アップデート"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "チャクラ管理、変わり身のタイミング、新規プレイヤー向けの初週トレーニングプラン。",
+          "href": "/guide/naruto-storm-evolution-beginner-guide"
+        },
+        {
+          "badge": "キャラ一覧",
+          "title": "全キャラクター",
+          "description": "時代とタイプ別に整理した全ファイター。解放条件とチーム編成のヒント付き。",
+          "href": "/characters/naruto-storm-evolution-all-characters"
+        },
+        {
+          "badge": "人気",
+          "title": "キャラクターTierリスト",
+          "description": "ニュートラル、ダメージ、覚醒、チーム連携をふまえたS〜Cランクの評価。",
+          "href": "/characters/naruto-storm-evolution-character-tier-list"
+        },
+        {
+          "badge": "基本",
+          "title": "戦闘メカニクス",
+          "description": "チャクラ経済、ガードブレイク、変わり身、アシストを練習法つきで解説。",
+          "href": "/mechanics/naruto-storm-evolution-combat-mechanics"
+        },
+        {
+          "badge": "基本",
+          "title": "コンボガイド",
+          "description": "実際のオンライン戦でも決まる安定したコンボルートと確定パターン。",
+          "href": "/mechanics/naruto-storm-evolution-combos"
+        },
+        {
+          "badge": "人気",
+          "title": "奥義",
+          "description": "奥義、覚醒、奥義融合がラウンドをどう覆すのかを解説。",
+          "href": "/mechanics/naruto-storm-evolution-ultimate-jutsu"
+        },
+        {
+          "badge": "更新",
+          "title": "1.11 アップデート",
+          "description": "最新ビルドの変更点と安全な導入手順。",
+          "href": "/updates/naruto-storm-evolution-111-update"
+        },
+        {
+          "badge": "機種",
+          "title": "PCでプレイ",
+          "description": "Windows 向けの導入手順、おすすめ設定、マルチプレイのコツ、クラッシュ対策。",
+          "href": "/platforms/naruto-storm-evolution-pc"
+        },
+        {
+          "badge": "コミュニティ",
+          "title": "Discord サーバー",
+          "description": "Naruto Storm Evolution の主要ハブで対戦相手やMOD仲間を探しましょう。",
+          "href": "/community/naruto-storm-evolution-discord"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Naruto Storm Evolution とは？",
+      "paragraphs": [
+        "Naruto Storm Evolution は、PC版『NARUTO -ナルト- 疾風伝 ナルティメットストーム4』をベースにコミュニティが制作した拡張です。シリーズでおなじみの高速な3Dアリーナ戦闘はそのままに、新ファイター、調整された技、拡張された覚醒、刷新されたステージでロスターを作り直しています。",
+        "すべての試合はチャクラ、ガード、立ち回りで決まります。ダッシュ、変わり身、忍術の発動にはチャクラを消費するため、長いコンボを覚えることよりも、いつ攻めて、いつ間合いをリセットするかの判断が重要です。当ウィキではキャラクター、戦闘メカニクス、コンボ、奥義、アップデート、機種別ガイドを一か所にまとめています。"
+      ],
+      "stats": [
+        {
+          "label": "開発",
+          "value": "ファンコミュニティ"
+        },
+        {
+          "label": "対応機種",
+          "value": "PC (Windows)"
+        },
+        {
+          "label": "ジャンル",
+          "value": "3Dアリーナ格闘"
+        },
+        {
+          "label": "ベースゲーム",
+          "value": "ナルティメットストーム4"
+        },
+        {
+          "label": "最新ビルド",
+          "value": "1.11"
+        },
+        {
+          "label": "サポート",
+          "value": "コミュニティDiscord"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "Naruto Storm Evolution Wiki を探索",
+      "description": "ロスター解説、初心者向け手順、Tier評価、操作、アップデート、コミュニティ情報で Naruto Storm Evolution を深く知りましょう。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Naruto Storm Evolution キャラクター",
+          "description": "忍たちの全ロスターを紹介し、戦闘タイプを比較して、あらゆる間合いをカバーするチームの組み方を学びます。",
+          "href": "/characters/naruto-storm-evolution-all-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "突進型",
+              "detail": "速いダッシュと短いコンボで相手に絶えずプレッシャーをかけます。"
+            },
+            {
+              "label": "バランス型",
+              "detail": "安定したコンボと十分な間合いを持ち、多くの対面に対応できる万能型。"
+            },
+            {
+              "label": "遠距離型",
+              "detail": "飛び道具とトラップで空間を支配し、遠くからダメージを削ります。"
+            },
+            {
+              "label": "パワー型",
+              "detail": "アーマーと高い火力を持つ代わりに、要所の技は発生が遅めです。"
+            },
+            {
+              "label": "サポート",
+              "detail": "相手のコンボを中断し、こちらの立て直しを支えるアシスト。"
+            },
+            {
+              "label": "解放",
+              "detail": "ストーリー章、ミッション、イベント、ゲーム内ショップで新ファイターを獲得できます。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Naruto Storm Evolution 初心者ガイド",
+          "description": "操作、防御、意図的な練習を順を追って学び、最初の一週間を正しく過ごしましょう。",
+          "href": "/guide/naruto-storm-evolution-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "トレーニングモードで自由な動きを練習しましょう。連打せずにダッシュ、キャンセル、立て直しを行います。"
+            },
+            {
+              "label": "2",
+              "detail": "AIのコンボ相手に変わり身のタイミングを練習し、パニックではなく反応で脱出できるようにします。"
+            },
+            {
+              "label": "3",
+              "detail": "専門キャラを追う前に、バランス型の先鋒と守備的なサポートを1体ずつ選びましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "3種類の異なる始動技から、1つの安定したコンボを練習します。"
+            },
+            {
+              "label": "5",
+              "detail": "オンラインで3試合、変わり身の使用回数だけを意識して戦いましょう。"
+            },
+            {
+              "label": "6",
+              "detail": "最大の課題を振り返り、修正して、翌週も同じ計画を繰り返します。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Naruto Storm Evolution Tierリスト",
+          "description": "ニュートラル、ダメージ、覚醒、チーム連携でS〜Cに評価し、現在の環境を定義するファイターが分かります。",
+          "href": "/characters/naruto-storm-evolution-character-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "六道ナルト、輪廻眼サスケ、カグヤ：速い通常技、広い間合い、強力な覚醒。"
+            },
+            {
+              "label": "A",
+              "detail": "穢土イタチ、長門、柱間、我愛羅：強力な性能だが、対処すべき明確な弱点が1つ。"
+            },
+            {
+              "label": "B",
+              "detail": "対面知識と練られた作戦が報われる堅実な専門型。"
+            },
+            {
+              "label": "C",
+              "detail": "上位キャラに手を出す前に間合いを教えてくれる、読みやすい入門キャラ。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Naruto Storm Evolution アップデート",
+          "description": "Naruto Storm Evolution の各ビルドについて、公式告知、パッチノート、バランス調整、新コンテンツを追跡します。",
+          "href": "/updates/naruto-storm-evolution-111-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "1.11",
+              "detail": "ダメージスケーリング、復帰時間、変わり身の手触りを調整した仕上げパッチ。"
+            },
+            {
+              "label": "1.10",
+              "detail": "独自のバランス調整と安定性向上を含む前系統のビルド。"
+            },
+            {
+              "label": "スキン",
+              "detail": "人気ファイターに追加された新コスチュームと別形態。"
+            },
+            {
+              "label": "奥義",
+              "detail": "ロスター全体で刷新された奥義と演出フィニッシュ。"
+            },
+            {
+              "label": "バランス",
+              "detail": "アシストのタイミング、ガード時のプレッシャー、脱出の安定性の調整。"
+            },
+            {
+              "label": "修正",
+              "detail": "ヒットエフェクト、忍術オーラ、メニューを改善し、オンライン切断を削減。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Naruto Storm Evolution 操作",
+          "description": "移動やガードからチャクラチャージ、変わり身まで、Storm系の標準的なキーボードとコントローラーの配置を学びます。",
+          "href": "/guide/naruto-storm-evolution-how-to-play",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "WASD",
+              "detail": "キーボードでの地上・空中移動。コントローラーでは左スティックを使用。"
+            },
+            {
+              "label": "ガード",
+              "detail": "長押しでほとんどの打撃と飛び道具を防ぐが、削りダメージを受ける。"
+            },
+            {
+              "label": "チャクラ",
+              "detail": "長押しでチャクラゲージを溜め、忍術やダッシュに消費する。"
+            },
+            {
+              "label": "ダッシュ",
+              "detail": "チャクラダッシュは一気に間合いを詰めるが、空振りすると隙ができる。"
+            },
+            {
+              "label": "変わり身",
+              "detail": "変わり身の術はチャクラを消費して、発動中のコンボから脱出する。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Naruto Storm Evolution ゲームモード",
+          "description": "シングルプレイのストーリー戦闘からオンライン対戦、ローカル対戦まで、すべての遊び方を紹介します。",
+          "href": "/guide/naruto-storm-evolution-online",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ストーリー",
+              "detail": "キャンペーン章とサイドバトルを進めてファイターを解放。"
+            },
+            {
+              "label": "対戦",
+              "detail": "同じ環境で友達と楽しむローカル対戦。"
+            },
+            {
+              "label": "オンライン",
+              "detail": "非公式のマッチングと共有ビルド番号でコミュニティがつながる。"
+            },
+            {
+              "label": "ミッション",
+              "detail": "条件が設定されたチャレンジボードと強化報酬。"
+            },
+            {
+              "label": "イベント",
+              "detail": "イベント限定キャラクターやアイテムが手に入る期間限定モード。"
+            },
+            {
+              "label": "トレーニング",
+              "detail": "コンボ、脱出、移動を練習するためのサンドボックス。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Naruto Storm Evolution ダウンロードガイド",
+          "description": "必要環境を確認し、ファイルをバックアップして、Naruto Storm Evolution MOD を安全に順を追って導入しましょう。",
+          "href": "/guide/naruto-storm-evolution-requirements",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "PCがナルティメットストーム4の必要環境と空き容量を満たしているか確認します。"
+            },
+            {
+              "label": "2",
+              "detail": "アーカイブを変更する前に、ゲームフォルダとセーブデータをバックアップします。"
+            },
+            {
+              "label": "3",
+              "detail": "コミュニティの配布チャンネルから最新の Naruto Storm Evolution ビルドをダウンロードします。"
+            },
+            {
+              "label": "4",
+              "detail": "推奨ツールで導入し、ファイルのバージョンを揃えておきます。"
+            },
+            {
+              "label": "5",
+              "detail": "ゲームを起動し、ビルド番号を確認してトレーニングモードで試合をテストします。"
+            },
+            {
+              "label": "6",
+              "detail": "今後のアップデートで競合したときに戻せるよう、きれいなバックアップを保管します。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Naruto Storm Evolution コミュニティ",
+          "description": "アップデートが届き、導入トラブルが解決され、プレイヤーが対戦を組むチャンネルに参加しましょう。",
+          "href": "/community/naruto-storm-evolution-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "告知、技術サポート、練習相手探しの主要ハブ。"
+            },
+            {
+              "label": "Reddit",
+              "detail": "プレイヤー同士の議論スレッド、クリップ、パッチへの反応。"
+            },
+            {
+              "label": "大会",
+              "detail": "コミュニティ大会と競技練習用の先取5本セット。"
+            },
+            {
+              "label": "トレーラー",
+              "detail": "コミュニティチャンネルによる新ビルド公開とプレイ映像。"
+            },
+            {
+              "label": "MOD",
+              "detail": "ファン制作拡張の導入ガイド、ツール、更新情報。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "対応機種から戦闘の基本まで、Naruto Storm Evolution についてよくある疑問に手早く答えます。",
+      "items": [
+        {
+          "question": "Naruto Storm Evolution とは何ですか？",
+          "answer": "Naruto Storm Evolution は、PC版『NARUTO -ナルト- 疾風伝 ナルティメットストーム4』向けにコミュニティが制作した拡張です。新ファイター、調整された技、拡張された覚醒、刷新されたステージでロスターを作り直しつつ、Stormシリーズの高速な3Dアリーナ戦闘をそのまま残しています。"
+        },
+        {
+          "question": "Naruto Storm Evolution は公式ゲームですか？",
+          "answer": "いいえ。Naruto Storm Evolution はバンダイナムコやサイバーコネクトツーの製品ではなくファン企画のため、公式ストアページやシーズンパスはありません。更新はコミュニティから提供され、オンライン対戦は公式ランク制度ではなく共有ビルド番号で行われます。"
+        },
+        {
+          "question": "Naruto Storm Evolution はどの機種で遊べますか？",
+          "answer": "Naruto Storm Evolution は PC (Windows) で動作します。MOD化にはコンソールでは許可されないファイルアクセスとコミュニティツールが必要だからです。既存のナルティメットストーム4のインストール上に導入します。"
+        },
+        {
+          "question": "Naruto Storm Evolution の戦闘が上達するには？",
+          "answer": "まずチャクラ経済に集中しましょう。チャクラは目的を持って使い、1発目はガード、2発目は変わり身で受け流し、チャクラが少なくなったら間合いをリセットします。変わり身のタイミングをトレーニングモードで意識的に練習する方が、長いコンボを丸暗記するより勝率が早く上がります。"
+        },
+        {
+          "question": "Naruto Storm Evolution の更新情報とコミュニティはどこで？",
+          "answer": "新しいビルドやバランス調整はコミュニティチャンネルで共有され、Naruto Storm Evolution の Discord が告知の確認、導入トラブルの解決、対戦の調整に最速の場所です。当サイトのアップデートとコミュニティの各セクションに要点をまとめています。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Naruto Storm Evolution を極める準備はできましたか？",
+      "description": "最初の忍者バトルから終盤の奥義まで、コミュニティウィキが無料で最新のガイドをお届けします。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "PCでプレイ (Steam)"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Naruto Storm Evolution ガイド",
+    "overviewDescription": "まずはこちら：発売日、ダウンロード容量、PC必要環境、操作、そして新規プレイヤーが早く勝てるようになる初心者向け手順をまとめています。"
+  },
+  "characters": {
+    "overviewTitle": "Naruto Storm Evolution キャラクター",
+    "overviewDescription": "ロスターの全ファイターに加え、Tierリスト、おすすめキャラ、コナンやナナシなど注目の忍の徹底解説。"
+  },
+  "mechanics": {
+    "overviewTitle": "Naruto Storm Evolution 戦闘メカニクス",
+    "overviewDescription": "チャクラ、ガード、変わり身、コンボ、覚醒、瞬時覚醒、奥義、奥義融合が Naruto Storm Evolution で実際にどう機能するのかを解説します。"
+  },
+  "updates": {
+    "overviewTitle": "Naruto Storm Evolution アップデート",
+    "overviewDescription": "1.10、1.11 を含む最新ビルドのパッチノートとバージョン解説、追加された新奥義やスキンも紹介します。"
+  },
+  "platforms": {
+    "overviewTitle": "Naruto Storm Evolution 対応機種",
+    "overviewDescription": "Naruto Storm Evolution が動く環境：PC、PS5、Xbox、Steam Deck、Android。機種ごとの設定メモとパフォーマンスのコツ付き。"
+  },
+  "mods": {
+    "overviewTitle": "Naruto Storm Evolution MOD",
+    "overviewDescription": "Naruto Storm Evolution MOD、テストビルド、拡張を支えるMOD制作プロジェクトの導入ガイドと解説。"
+  },
+  "community": {
+    "overviewTitle": "Naruto Storm Evolution コミュニティ",
+    "overviewDescription": "公式 Naruto Storm Evolution Discord、Reddit、大会、最新トレーラーを通じて対戦相手やMOD、仲間を見つけましょう。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "updated": "更新",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "ガイドはまだありません。近日公開をお待ちください！"
+  },
+  "footer": {
+    "aboutTitle": "Naruto Storm Evolution Wiki",
+    "about": "Naruto Storm Evolution Wiki は、キャラクター、忍術、戦闘メカニクス、奥義、アップデート、ゲームの基礎知識を初心者からベテランまで幅広く扱う、ファン制作の独立系ガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "2026 Naruto Storm Evolution Wiki. バンダイナムコおよびサイバーコネクトツーとは無関係です。",
+    "description": "新キャラクター、覚醒、奥義融合、ステージを追加する無料のファン制作 Naruto Storm 4 MOD。",
+    "playGame": "PCでプレイ (Steam)",
+    "officialDiscord": "公式Discord",
+    "officialYoutube": "公式YouTube",
+    "vvBuilder": "Storm Evolution Builder (スキルプランナー)",
+    "beginnerGuide": "初心者ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "characterGuides": "キャラクターガイド",
+    "mechanicsGuides": "戦闘メカニクス",
+    "modGuides": "MODと導入ガイド"
+  }
+}

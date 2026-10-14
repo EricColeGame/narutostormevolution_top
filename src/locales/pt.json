@@ -1,1 +1,520 @@
-{}
+{
+  "site": {
+    "name": "Naruto Storm Evolution Wiki",
+    "shortName": "Naruto Storm Evolution",
+    "tagline": "Guias, personagens, jutsu e mecânicas de combate",
+    "description": "Explore a Naruto Storm Evolution Wiki com guias de personagens, dicas de combate, jutsu, atualizações e informações de gameplay para fãs de batalha ninja.",
+    "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guia",
+    "characters": "Personagens",
+    "mechanics": "Mecânicas",
+    "updates": "Atualizações",
+    "platforms": "Plataformas",
+    "mods": "Mods",
+    "community": "Comunidade"
+  },
+  "home": {
+    "meta": {
+      "title": "Naruto Storm Evolution Wiki - Personagens, guias e combate",
+      "description": "Explore a Naruto Storm Evolution Wiki com guias de personagens, dicas de combate, jutsu, atualizações e informações de gameplay para fãs de batalha ninja."
+    },
+    "hero": {
+      "eyebrow": "Jogo de luta ninja de anime",
+      "title": "Naruto Storm Evolution Wiki",
+      "description": "A Naruto Storm Evolution Wiki reúne guias, personagens, jutsu, mecânicas de combate, atualizações e informações de gameplay para fãs que buscam a experiência definitiva de batalha ninja.",
+      "stats": [
+        "Personagens disponíveis",
+        "Mecânicas de combate",
+        "Plataformas cobertas",
+        "Atualizações diárias"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Tier list de personagens",
+      "tertiaryCta": "Mecânicas de combate",
+      "videoLabel": "Trailer oficial"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em Naruto Storm Evolution",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda a economia de chakra, o timing da substituição e os hábitos de guarda que decidem suas primeiras partidas em Naruto Storm Evolution."
+        },
+        {
+          "number": "2",
+          "title": "Melhores personagens",
+          "description": "Veja o elenco completo, compare arquétipos de pressão, zoner e brutamontes e escolha um main que caiba nas suas mãos."
+        },
+        {
+          "number": "3",
+          "title": "Mecânicas de combate",
+          "description": "Domine o dash de chakra, as quebras de guarda, os contra-ataques e os apoios de equipe para controlar o neutral em vez de trocar golpes às cegas."
+        },
+        {
+          "number": "4",
+          "title": "Combos e despertar",
+          "description": "Monte rotas de combo confiáveis, ajuste suas substituições e transforme as janelas de despertar em rounds ganhos com folga."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Em alta agora",
+      "quickLinks": [
+        "Todos os personagens",
+        "Mecânicas de combate",
+        "Tier list de personagens",
+        "Últimas atualizações"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciante",
+          "title": "Guia para iniciantes",
+          "description": "Controle de chakra, timing de substituição e um plano de treino para a primeira semana.",
+          "href": "/guide/naruto-storm-evolution-beginner-guide"
+        },
+        {
+          "badge": "Elenco",
+          "title": "Todos os personagens",
+          "description": "Cada lutador agrupado por era e arquétipo, com rotas de desbloqueio e escolhas de time.",
+          "href": "/characters/naruto-storm-evolution-all-characters"
+        },
+        {
+          "badge": "Popular",
+          "title": "Tier list de personagens",
+          "description": "Ranking de S a C em neutral, dano, despertar e sinergia de equipe.",
+          "href": "/characters/naruto-storm-evolution-character-tier-list"
+        },
+        {
+          "badge": "Base",
+          "title": "Mecânicas de combate",
+          "description": "Economia de chakra, quebras de guarda, substituições e apoios explicados com exercícios.",
+          "href": "/mechanics/naruto-storm-evolution-combat-mechanics"
+        },
+        {
+          "badge": "Base",
+          "title": "Guia de combos",
+          "description": "Rotas de combo confiáveis e confirmações que funcionam sob pressão real online.",
+          "href": "/mechanics/naruto-storm-evolution-combos"
+        },
+        {
+          "badge": "Popular",
+          "title": "Jutsu definitivo",
+          "description": "Como os jutsu definitivos, os despertares e a fusão de ougi viram um round.",
+          "href": "/mechanics/naruto-storm-evolution-ultimate-jutsu"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Atualização 1.11",
+          "description": "O que mudou na build mais recente e como instalar com segurança.",
+          "href": "/updates/naruto-storm-evolution-111-update"
+        },
+        {
+          "badge": "Plataforma",
+          "title": "Jogar no PC",
+          "description": "Passos de instalação, melhores configurações, dicas de multiplayer e correções de crash no Windows.",
+          "href": "/platforms/naruto-storm-evolution-pc"
+        },
+        {
+          "badge": "Comunidade",
+          "title": "Servidor do Discord",
+          "description": "Encontre partidas, mods e rivais no principal hub de Naruto Storm Evolution.",
+          "href": "/community/naruto-storm-evolution-discord"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Naruto Storm Evolution?",
+      "paragraphs": [
+        "Naruto Storm Evolution é uma expansão feita pela comunidade sobre a versão de PC de Naruto Shippuden: Ultimate Ninja Storm 4. Ela mantém o combate rápido em arena 3D que os fãs conhecem e reconstrói o elenco com novos lutadores, movesets reformulados, despertares ampliados e fases renovadas.",
+        "Cada partida gira em torno de chakra, guarda e posicionamento. Você gasta chakra para dar dash, substituir e lançar jutsu, então saber quando atacar e quando resetar a distância importa mais do que decorar combos longos. Nossa wiki reúne personagens, mecânicas de combate, combos, jutsu definitivos, atualizações e guias de plataforma em um só lugar."
+      ],
+      "stats": [
+        {
+          "label": "Desenvolvedor",
+          "value": "Comunidade de fãs"
+        },
+        {
+          "label": "Plataforma",
+          "value": "PC (Windows)"
+        },
+        {
+          "label": "Gênero",
+          "value": "Luta em arena 3D"
+        },
+        {
+          "label": "Jogo base",
+          "value": "Ultimate Ninja Storm 4"
+        },
+        {
+          "label": "Build atual",
+          "value": "1.11"
+        },
+        {
+          "label": "Suporte",
+          "value": "Discord da comunidade"
+        }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Explore a Naruto Storm Evolution Wiki",
+      "description": "Mergulhe em Naruto Storm Evolution com análises do elenco, guias passo a passo para iniciantes, rankings por tier, controles, atualizações e recursos da comunidade.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Personagens de Naruto Storm Evolution",
+          "description": "Conheça todo o elenco de shinobi, compare arquétipos de luta e aprenda a montar um time que cubra todas as distâncias.",
+          "href": "/characters/naruto-storm-evolution-all-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Pressão",
+              "detail": "Dashes rápidos e combos curtos que mantêm pressão constante sobre o oponente."
+            },
+            {
+              "label": "Equilibrado",
+              "detail": "Coringas com combos confiáveis e alcance suficiente para a maioria dos confrontos."
+            },
+            {
+              "label": "Zoner",
+              "detail": "Projéteis e armadilhas que controlam o espaço e desgastam à distância."
+            },
+            {
+              "label": "Brutamontes",
+              "detail": "Lutadores com armadura e dano alto, mas início mais lento nos golpes principais."
+            },
+            {
+              "label": "Apoio",
+              "detail": "Unidades de apoio que interrompem combos e cobrem sua recuperação."
+            },
+            {
+              "label": "Desbloqueios",
+              "detail": "Ganhe novos lutadores em capítulos da história, missões, eventos e na loja do jogo."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia para iniciantes de Naruto Storm Evolution",
+          "description": "Comece sua primeira semana do jeito certo com um caminho passo a passo por controles, defesa e treino deliberado.",
+          "href": "/guide/naruto-storm-evolution-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Aprenda o movimento livre no modo treino: dash, cancelamento e recuperação sem apertar botões sem parar."
+            },
+            {
+              "label": "2",
+              "detail": "Treine o timing da substituição contra combos da IA para escapar por reação, não por pânico."
+            },
+            {
+              "label": "3",
+              "detail": "Escolha um líder equilibrado e um apoio defensivo antes de correr atrás de especialistas."
+            },
+            {
+              "label": "4",
+              "detail": "Pratique um único combo confiável a partir de três inícios diferentes."
+            },
+            {
+              "label": "5",
+              "detail": "Jogue três partidas online com um foco só: acompanhar apenas o seu uso de substituições."
+            },
+            {
+              "label": "6",
+              "detail": "Revise seu maior vazamento, corrija e repita o plano na semana seguinte."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Tier list de Naruto Storm Evolution",
+          "description": "Veja quais lutadores definem o meta atual, classificados de S a C em neutral, dano, despertar e sinergia de equipe.",
+          "href": "/characters/naruto-storm-evolution-character-tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Naruto dos Seis Caminhos, Sasuke com Rinnegan e Kaguya: normais rápidos, alcance enorme e despertares punitivos."
+            },
+            {
+              "label": "A",
+              "detail": "Itachi Edo, Nagato, Hashirama e Gaara: kits fortes com uma fraqueza clara para saber contornar."
+            },
+            {
+              "label": "B",
+              "detail": "Especialistas sólidos que recompensam o conhecimento do confronto e um plano de jogo treinado."
+            },
+            {
+              "label": "C",
+              "detail": "Iniciantes legíveis que ensinam espaçamento antes de você partir para os picks de alto nível."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Atualizações de Naruto Storm Evolution",
+          "description": "Acompanhe anúncios oficiais, notas de patch, mudanças de balanceamento e conteúdo novo de cada build de Naruto Storm Evolution.",
+          "href": "/updates/naruto-storm-evolution-111-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "1.11",
+              "detail": "Patch de polimento que reajusta o escalonamento de dano, as janelas de recuperação e a sensação da substituição."
+            },
+            {
+              "label": "1.10",
+              "detail": "Ramo anterior com seu próprio passe de balanceamento e melhorias de estabilidade."
+            },
+            {
+              "label": "Skins",
+              "detail": "Novos trajes e formas alternativas para os lutadores mais populares."
+            },
+            {
+              "label": "Definitivos",
+              "detail": "Jutsu definitivos e finalizações cinematográficas reformulados em todo o elenco."
+            },
+            {
+              "label": "Balanceamento",
+              "detail": "Ajustes no timing dos apoios, na pressão de guarda e na confiabilidade das fugas."
+            },
+            {
+              "label": "Correções",
+              "detail": "Faíscas de impacto, auras de jutsu e menus mais limpos, e menos desconexões online."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Controles de Naruto Storm Evolution",
+          "description": "Aprenda o esquema padrão de teclado e controle no estilo Storm, do movimento e da guarda até a carga de chakra e a substituição.",
+          "href": "/guide/naruto-storm-evolution-how-to-play",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "WASD",
+              "detail": "Movimento em solo e no ar no teclado; no controle, o analógico esquerdo."
+            },
+            {
+              "label": "Guarda",
+              "detail": "Segure para bloquear a maioria dos golpes e projéteis, sofrendo dano residual."
+            },
+            {
+              "label": "Chakra",
+              "detail": "Segure para carregar a barra de chakra que você gasta em jutsu e dashes."
+            },
+            {
+              "label": "Dash",
+              "detail": "O dash de chakra encurta a distância rápido, mas deixa você exposto se errar."
+            },
+            {
+              "label": "Substituição",
+              "detail": "O Jutsu de Substituição escapa de um combo ativo ao custo de chakra."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Modos de jogo de Naruto Storm Evolution",
+          "description": "Explore todas as formas de jogar, das batalhas de história para um jogador aos sets online e ao versus local.",
+          "href": "/guide/naruto-storm-evolution-online",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "História",
+              "detail": "Avance pelos capítulos da campanha e batalhas secundárias para desbloquear lutadores."
+            },
+            {
+              "label": "Versus",
+              "detail": "Batalhas locais contra amigos no mesmo setup."
+            },
+            {
+              "label": "Online",
+              "detail": "Matchmaking não oficial e números de build compartilhados conectam a comunidade."
+            },
+            {
+              "label": "Missões",
+              "detail": "Quadros de desafio com condições definidas e recompensas de melhoria."
+            },
+            {
+              "label": "Eventos",
+              "detail": "Modos por tempo limitado que distribuem personagens e itens exclusivos."
+            },
+            {
+              "label": "Treino",
+              "detail": "Um sandbox para treinar combos, fugas e movimento."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guia de download de Naruto Storm Evolution",
+          "description": "Confira os requisitos, faça backup dos seus arquivos e instale o mod de Naruto Storm Evolution passo a passo com segurança.",
+          "href": "/guide/naruto-storm-evolution-requirements",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Confirme se o seu PC atende aos requisitos de Ultimate Ninja Storm 4 e tem espaço livre."
+            },
+            {
+              "label": "2",
+              "detail": "Faça backup da pasta do jogo e dos seus saves antes de alterar qualquer arquivo empacotado."
+            },
+            {
+              "label": "3",
+              "detail": "Baixe a build atual de Naruto Storm Evolution no canal de lançamentos da comunidade."
+            },
+            {
+              "label": "4",
+              "detail": "Instale com as ferramentas recomendadas pela comunidade e mantenha as versões dos arquivos alinhadas."
+            },
+            {
+              "label": "5",
+              "detail": "Abra o jogo, confira o número da build e teste uma partida no modo treino."
+            },
+            {
+              "label": "6",
+              "detail": "Guarde um backup limpo para poder reverter se uma atualização futura entrar em conflito."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Comunidade de Naruto Storm Evolution",
+          "description": "Entre nos canais onde as atualizações saem, os problemas de instalação são resolvidos e os jogadores marcam partidas.",
+          "href": "/community/naruto-storm-evolution-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "O hub principal para anúncios, suporte técnico e encontrar parceiros de treino."
+            },
+            {
+              "label": "Reddit",
+              "detail": "Tópicos de discussão, clipes e reações aos patches de outros jogadores."
+            },
+            {
+              "label": "Torneios",
+              "detail": "Competições da comunidade e sets melhor de cinco para treino competitivo."
+            },
+            {
+              "label": "Trailers",
+              "detail": "Revelações de novas builds e demonstrações de gameplay nos canais da comunidade."
+            },
+            {
+              "label": "Mods",
+              "detail": "Guias de instalação, ferramentas e atualizações da expansão feita por fãs."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Respostas rápidas para as dúvidas mais comuns sobre Naruto Storm Evolution, das plataformas ao básico do combate.",
+      "items": [
+        {
+          "question": "O que é Naruto Storm Evolution?",
+          "answer": "Naruto Storm Evolution é uma expansão feita pela comunidade para a versão de PC de Naruto Shippuden: Ultimate Ninja Storm 4. Ela reconstrói o elenco com novos lutadores, movesets reformulados, despertares ampliados e fases renovadas, mantendo o combate rápido em arena 3D da série Storm."
+        },
+        {
+          "question": "Naruto Storm Evolution é um jogo oficial?",
+          "answer": "Não. Naruto Storm Evolution é um projeto de fãs, e não um lançamento da Bandai Namco ou da CyberConnect2, então não há página oficial em lojas nem passe de temporada. As atualizações vêm da comunidade, e o jogo online usa versões de build compartilhadas em vez de um ranking oficial."
+        },
+        {
+          "question": "Em qual plataforma posso jogar Naruto Storm Evolution?",
+          "answer": "Naruto Storm Evolution roda em PC (Windows), porque o modding exige acesso a arquivos e ferramentas da comunidade que os consoles não permitem. Você instala por cima de uma instalação existente de Ultimate Ninja Storm 4."
+        },
+        {
+          "question": "Como melhoro no combate de Naruto Storm Evolution?",
+          "answer": "Foque primeiro na economia de chakra. Gaste chakra com propósito, segure o primeiro golpe e substitua o segundo, e resete a distância quando o chakra acabar. Treinos deliberados de timing de substituição no modo treino aumentam seu win rate mais rápido do que decorar combos longos."
+        },
+        {
+          "question": "Onde encontro atualizações e a comunidade de Naruto Storm Evolution?",
+          "answer": "Novas builds e mudanças de balanceamento aparecem nos canais da comunidade, e o Discord de Naruto Storm Evolution é o lugar mais rápido para ver anúncios, resolver problemas de instalação e marcar partidas. Nossas seções de Atualizações e Comunidade reúnem o essencial em um só lugar."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dominar Naruto Storm Evolution?",
+      "description": "Das suas primeiras batalhas ninja aos jutsu definitivos do endgame, nossa wiki da comunidade cobre você com guias gratuitos e atualizados.",
+      "primary": "Ler o guia para iniciantes",
+      "secondary": "Jogar no PC (Steam)"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guias de Naruto Storm Evolution",
+    "overviewDescription": "Comece aqui: data de lançamento, tamanho do download, requisitos de PC, controles e o passo a passo para iniciantes que faz novos jogadores vencerem rápido."
+  },
+  "characters": {
+    "overviewTitle": "Personagens de Naruto Storm Evolution",
+    "overviewDescription": "Todos os lutadores do elenco, além de tier lists, melhores personagens e análises profundas de ninjas de destaque como Konan e Nanashi."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de combate de Naruto Storm Evolution",
+    "overviewDescription": "Como chakra, guarda, substituições, combos, despertares, despertar instantâneo, jutsu definitivos e fusão de ougi realmente funcionam em Naruto Storm Evolution."
+  },
+  "updates": {
+    "overviewTitle": "Atualizações de Naruto Storm Evolution",
+    "overviewDescription": "Notas de patch e análises de versão das builds mais recentes de Naruto Storm Evolution, incluindo 1.10, 1.11 e os novos definitivos e skins adicionados."
+  },
+  "platforms": {
+    "overviewTitle": "Plataformas de Naruto Storm Evolution",
+    "overviewDescription": "Onde Naruto Storm Evolution roda: PC, PS5, Xbox, Steam Deck e Android, com notas de configuração e dicas de desempenho para cada plataforma."
+  },
+  "mods": {
+    "overviewTitle": "Mods de Naruto Storm Evolution",
+    "overviewDescription": "Guias de instalação e análises do mod de Naruto Storm Evolution, da build de teste e do projeto de modding por trás da expansão."
+  },
+  "community": {
+    "overviewTitle": "Comunidade de Naruto Storm Evolution",
+    "overviewDescription": "Encontre partidas, mods e rivais pelo Discord oficial de Naruto Storm Evolution, Reddit, torneios e pelos últimos trailers."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da wiki",
+    "updated": "Atualizado",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leituras relacionadas",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Naruto Storm Evolution Wiki",
+    "about": "A Naruto Storm Evolution Wiki é um hub de guias independente feito por fãs, cobrindo personagens, jutsu, mecânicas de combate, jutsu definitivos, atualizações e conhecimentos essenciais do jogo para jogadores novos e veteranos.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Naruto Storm Evolution Wiki. Sem vínculo com a Bandai Namco ou a CyberConnect2.",
+    "description": "Mod de Naruto Storm 4 feito por fãs e gratuito, com novos personagens, despertares, fusão de ougi e fases.",
+    "playGame": "Jogar no PC (Steam)",
+    "officialDiscord": "Discord oficial",
+    "officialYoutube": "YouTube oficial",
+    "vvBuilder": "Storm Evolution Builder (planejador de habilidades)",
+    "beginnerGuide": "Guia para iniciantes",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço",
+    "characterGuides": "Guias de personagens",
+    "mechanicsGuides": "Mecânicas de combate",
+    "modGuides": "Mods e guias de instalação"
+  }
+}
