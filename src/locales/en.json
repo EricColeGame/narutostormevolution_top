@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the chakra economy, substitution timing, and guard habits that decide your first Naruto Storm Evolution matches."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Characters",
+          "description": "Browse the full roster, compare rushdown, zoner, and bruiser archetypes, and pick a main that fits your hands."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Combat Mechanics",
+          "description": "Master chakra dash, guard breaks, counters, and team assists so you control neutral instead of trading blindly."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Naruto Storm Evolution."
+          "title": "Combos & Awakening",
+          "description": "Build reliable combo routes, time your substitutions, and turn awakening windows into clean round wins."
         }
       ]
     },
@@ -66,237 +66,351 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "All Characters",
+        "Combat Mechanics",
+        "Character Tier List",
+        "Latest Updates"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Chakra control, substitution timing, and a first-week training plan for new players.",
+          "href": "/guide/naruto-storm-evolution-beginner-guide"
+        },
+        {
+          "badge": "Roster",
+          "title": "All Characters",
+          "description": "Every fighter grouped by era and archetype, with unlock routes and team picks.",
+          "href": "/characters/naruto-storm-evolution-all-characters"
+        },
+        {
+          "badge": "Popular",
+          "title": "Character Tier List",
+          "description": "S-tier to C-tier rankings across neutral, damage, awakening, and team synergy.",
+          "href": "/characters/naruto-storm-evolution-character-tier-list"
+        },
+        {
+          "badge": "Core",
+          "title": "Combat Mechanics",
+          "description": "Chakra economy, guard breaks, substitutions, and assists explained with drills.",
+          "href": "/mechanics/naruto-storm-evolution-combat-mechanics"
+        },
+        {
+          "badge": "Core",
+          "title": "Combos Guide",
+          "description": "Reliable combo routes and confirms that land under real online pressure.",
+          "href": "/mechanics/naruto-storm-evolution-combos"
+        },
+        {
+          "badge": "Popular",
+          "title": "Ultimate Jutsu",
+          "description": "How ultimate jutsu, awakenings, and ougi fusion turn rounds around.",
+          "href": "/mechanics/naruto-storm-evolution-ultimate-jutsu"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "1.11 Update",
+          "description": "What changed in the latest build and how to install it safely.",
+          "href": "/updates/naruto-storm-evolution-111-update"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Platform",
+          "title": "Play on PC",
+          "description": "Install steps, best settings, multiplayer tips, and crash fixes for Windows.",
+          "href": "/platforms/naruto-storm-evolution-pc"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Community",
+          "title": "Discord Server",
+          "description": "Find matches, mods, and rivals in the main Naruto Storm Evolution hub.",
+          "href": "/community/naruto-storm-evolution-discord"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Naruto Storm Evolution?",
       "paragraphs": [
-        "Naruto Storm Evolution is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Naruto Storm Evolution is a community-made expansion built on the PC release of Naruto Shippuden: Ultimate Ninja Storm 4. It keeps the fast 3D arena combat fans know, then rebuilds the roster with new fighters, reworked movesets, expanded awakenings, and refreshed stages.",
+        "Every match runs on chakra, guard, and positioning. You spend chakra to dash, substitute, and fire jutsu, so knowing when to attack and when to reset spacing matters more than memorizing long combos. Our wiki breaks down characters, combat mechanics, combos, ultimate jutsu, updates, and platform guides in one place."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Fan Community"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "PC (Windows)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "3D Arena Fighter"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Base Game",
+          "value": "Ultimate Ninja Storm 4"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Latest Build",
+          "value": "1.11"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Support",
+          "value": "Community Discord"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Naruto Storm Evolution Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Dive into Naruto Storm Evolution with roster breakdowns, beginner walkthroughs, tier rankings, controls, updates, and community resources.",
       "modules": [
         {
           "order": 1,
-          "name": "Naruto Storm Evolution Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/naruto-storm-evolution-codes",
-          "displayType": "code-box",
+          "name": "Naruto Storm Evolution Characters",
+          "description": "Meet the full roster of shinobi, compare fighting archetypes, and learn how to build a team that covers every range.",
+          "href": "/characters/naruto-storm-evolution-all-characters",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "Rushdown",
+              "detail": "Fast dashes and short combos that keep constant pressure on your opponent."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "Balanced",
+              "detail": "All-rounders with reliable combos and enough range to handle most matchups."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "Zoner",
+              "detail": "Projectiles and traps that control space and chip damage from a distance."
+            },
+            {
+              "label": "Bruiser",
+              "detail": "Heavy hitters with armor and big damage but slower startup on key moves."
+            },
+            {
+              "label": "Support",
+              "detail": "Assist units that interrupt combos and cover your recovery."
+            },
+            {
+              "label": "Unlocks",
+              "detail": "Earn new fighters through story chapters, missions, events, and the in-game shop."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
+          "name": "Naruto Storm Evolution Beginner Guide",
+          "description": "Start your first week the right way with a step-by-step path through controls, defense, and deliberate practice.",
           "href": "/guide/naruto-storm-evolution-beginner-guide",
-          "displayType": "feature-cards",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Learn free movement in training mode: dash, cancel, and recover without mashing."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Drill substitution timing against AI combos so you escape on reaction, not panic."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Pick one balanced lead and one defensive support before you chase specialists."
+            },
+            {
+              "label": "4",
+              "detail": "Practice a single reliable combo from three different starters."
+            },
+            {
+              "label": "5",
+              "detail": "Play three online matches with one focus: track only your substitution usage."
+            },
+            {
+              "label": "6",
+              "detail": "Review your biggest leak, fix it, and repeat the plan next week."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/tier-list/naruto-storm-evolution-tier-list",
+          "name": "Naruto Storm Evolution Tier List",
+          "description": "See which fighters define the current meta, ranked from S to C across neutral, damage, awakening, and team synergy.",
+          "href": "/characters/naruto-storm-evolution-character-tier-list",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Six Paths Naruto, Rinnegan Sasuke, and Kaguya: fast normals, huge range, and punishing awakenings."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Edo Itachi, Nagato, Hashirama, and Gaara: strong kits with one clear weakness to play around."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Solid specialists that reward matchup knowledge and a practiced game plan."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Readable starters that teach spacing before you branch into top-tier picks."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/skills/naruto-storm-evolution-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Naruto Storm Evolution Updates",
+          "description": "Track official announcements, patch notes, balance changes, and new content for every Naruto Storm Evolution build.",
+          "href": "/updates/naruto-storm-evolution-111-update",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1.11",
+              "detail": "Polish patch that retunes damage scaling, recovery windows, and substitution feel."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "1.10",
+              "detail": "Previous branch with its own balance pass and stability improvements."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Skins",
+              "detail": "New costumes and alternate forms added for popular fighters."
+            },
+            {
+              "label": "Ultimates",
+              "detail": "Reworked ultimate jutsu and cinematic finishers across the roster."
+            },
+            {
+              "label": "Balance",
+              "detail": "Adjustments to assist timing, guard pressure, and escape reliability."
+            },
+            {
+              "label": "Fixes",
+              "detail": "Cleaner hit sparks, jutsu auras, menus, and fewer online disconnects."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/naruto-storm-evolution-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Naruto Storm Evolution Controls",
+          "description": "Learn the standard Storm-style keyboard and controller layout, from movement and guard to chakra charge and substitution.",
+          "href": "/guide/naruto-storm-evolution-how-to-play",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "WASD",
+              "detail": "Ground and air movement on keyboard, with the left stick on controller."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Guard",
+              "detail": "Hold to block most strikes and projectiles while taking chip damage."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Chakra",
+              "detail": "Hold to charge the chakra gauge you spend on jutsu and dashes."
+            },
+            {
+              "label": "Dash",
+              "detail": "Chakra dash closes distance quickly but leaves you open if it whiffs."
+            },
+            {
+              "label": "Sub",
+              "detail": "Substitution Jutsu escapes an active combo at the cost of chakra."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/skills/naruto-storm-evolution-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Naruto Storm Evolution Game Modes",
+          "description": "Explore every way to play, from single-player story battles to online sets and local versus matches.",
+          "href": "/guide/naruto-storm-evolution-online",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Story",
+              "detail": "Work through campaign chapters and side battles to unlock fighters."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Versus",
+              "detail": "Local couch battles against friends on the same setup."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Online",
+              "detail": "Unofficial matchmaking and shared version numbers connect the community."
+            },
+            {
+              "label": "Missions",
+              "detail": "Challenge boards with set conditions and upgrade rewards."
+            },
+            {
+              "label": "Events",
+              "detail": "Limited-time modes that hand out event-exclusive characters and items."
+            },
+            {
+              "label": "Training",
+              "detail": "A sandbox for drilling combos, escapes, and movement."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Naruto Storm Evolution Download Guide",
+          "description": "Check the requirements, back up your files, and install the Naruto Storm Evolution mod safely step by step.",
+          "href": "/guide/naruto-storm-evolution-requirements",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Confirm your PC meets the requirements for Ultimate Ninja Storm 4 and free disk space."
+            },
+            {
+              "label": "2",
+              "detail": "Back up your game folder and saves before changing any packed archives."
+            },
+            {
+              "label": "3",
+              "detail": "Download the current Naruto Storm Evolution build from the community release channel."
+            },
+            {
+              "label": "4",
+              "detail": "Install with the recommended community tools and keep file versions matched."
+            },
+            {
+              "label": "5",
+              "detail": "Launch the game, verify your build number, and test a match in training mode."
+            },
+            {
+              "label": "6",
+              "detail": "Keep a clean backup so you can roll back if a future update conflicts."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Naruto Storm Evolution Community",
+          "description": "Join the channels where updates drop, install problems get solved, and players schedule real matches.",
+          "href": "/community/naruto-storm-evolution-discord",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Discord",
+              "detail": "The main hub for announcements, tech support, and finding training partners."
+            },
+            {
+              "label": "Reddit",
+              "detail": "Discussion threads, clips, and patch reactions from fellow players."
+            },
+            {
+              "label": "Brackets",
+              "detail": "Community tournaments and first-to-five sets for competitive practice."
+            },
+            {
+              "label": "Trailers",
+              "detail": "New build reveals and gameplay showcases from community channels."
+            },
+            {
+              "label": "Mods",
+              "detail": "Install guides, tools, and updates for the fan-made expansion."
             }
           ]
         }
@@ -304,27 +418,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Naruto Storm Evolution.",
+      "description": "Quick answers to the most common questions about Naruto Storm Evolution, from platforms to combat basics.",
       "items": [
         {
           "question": "What is Naruto Storm Evolution?",
-          "answer": "Naruto Storm Evolution is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Naruto Storm Evolution is a community-made expansion for the PC release of Naruto Shippuden: Ultimate Ninja Storm 4. It rebuilds the roster with new fighters, reworked movesets, expanded awakenings, and refreshed stages while keeping the fast 3D arena combat of the Storm series."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Is Naruto Storm Evolution an official game?",
+          "answer": "No. Naruto Storm Evolution is a fan project rather than a Bandai Namco or CyberConnect2 release, so there is no official store page or season pass. Updates come from the community, and online play uses shared build versions instead of an official ranked ladder."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Which platform can I play Naruto Storm Evolution on?",
+          "answer": "Naruto Storm Evolution runs on PC (Windows), because modding needs file access and community tools that consoles do not allow. You install it on top of an existing Ultimate Ninja Storm 4 installation."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do I get better at Naruto Storm Evolution combat?",
+          "answer": "Focus on the chakra economy first. Spend chakra on purpose, guard the first hit and substitute the second, and reset spacing when your chakra runs low. Deliberate training-mode drills on substitution timing improve your win rate faster than memorizing long combos."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I find Naruto Storm Evolution updates and community?",
+          "answer": "New builds and balance changes surface through community channels, and the Naruto Storm Evolution Discord is the fastest place to catch announcements, solve install issues, and schedule matches. Our Updates and Community sections collect the essentials in one spot."
         }
       ]
     },
